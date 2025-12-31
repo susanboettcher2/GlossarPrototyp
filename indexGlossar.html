@@ -12,35 +12,47 @@
           <li>News</li>
           <li>Projekte</li>
           <li>eQMS</li>
-          <li>Glossar</li>
+          <li><a href="indexGlossar.html">Glossar</a></li>
           <li>IT-Helpdesk</li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Glossar</h1>
-      <p>
-        Willkommen im internen Glossar von Log7-Consult. Hier findest du
-        zentrale Begriffe, Abkürzungen und Konzepte aus unserem Arbeitsalltag
-        kompakt erklärt. Auf den Unterseiten erhältst du zusätzlich detaillierte
-        Informationen zu den einzelnen Begriffen sowie weiterführende Links.
-      </p>
-      <section aria-labelledby="glossar-suche">
+      <nav aria-label="Breadcrumb">
+        <ol>
+          <li>Home</li>
+          <li><a href="indexGlossar.html">Glossar</a></li>
+        </ol>
+      </nav>
+      <section aria-labelledby="glossar-einleitung">
+        <h1 id="glossar-einleitung">Glossar</h1>
+        <p>
+          Willkommen im internen Glossar von Log7-Consult. Hier findest du
+          zentrale Begriffe, Abkürzungen und Konzepte aus unserem Arbeitsalltag
+          kompakt erklärt. Auf den Unterseiten erhältst du zusätzlich
+          detaillierte Informationen zu den einzelnen Begriffen sowie
+          weiterführende Links.
+        </p>
+      </section>
+      <section aria-labelledby="suche">
         <h2>Suche</h2>
-        <p>Filtere die unten aufgelisteten Begriffe durch Eingabe eines Suchbegriffs.</p>
-      <form role="search" aria-label="Glossar durchsuchen">
-        <label for="glossar-suche">Glossarbegriff suchen</label>
-        <input
-          type="search"
-          id="glossar-suche"
-          name="searchTerm"
-          placeholder="Begriff eingeben"
-        />
-        <button type="submit">Suchen</button>
-      </form>
+        <p>
+          Filtere die unten aufgelisteten Begriffe durch Eingabe eines
+          Suchbegriffs.
+        </p>
+        <form role="search" aria-label="Glossar durchsuchen">
+          <label for="glossar-suche-input">Glossarbegriff suchen</label>
+          <input
+            type="search"
+            id="glossar-suche-input"
+            name="searchTerm"
+            placeholder="Begriff eingeben"
+          />
+          <button type="submit">Suchen</button>
+        </form>
       </section>
       <section aria-labelledby="glossar-uebersicht">
-        <h2>Begriffe</h2>
+        <h2 id="glossar-uebersicht">Begriffe</h2>
         <ul>
           <li>
             <a href="begriff1.html">Begriff 1</a>
