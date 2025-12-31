@@ -19,18 +19,19 @@
         <ol>
           <li>Home</li>
           <li><a href="indexGlossar.html">Glossar</a></li>
-          <li>Glossar-Eintrag: Retourenmanagement</li>
+          <li aria-current="page">Glossar-Eintrag: Retourenmanagement</li>
         </ol>
       </nav>
 
       <article aria-labelledby="retourenmanagement-title">
         <h1 id="retourenmanagement-title">Retourenmanagement</h1>
-        <p><strong>Kategorie:</strong> Logistik</p>
-        <p>
-          <strong>Kurzinfo:</strong> Steuerung und Optimierung der Rücksendungen
-          von Waren.
-        </p>
 
+        <dl>
+          <dt>Kategorie</dt>
+          <dd>Logistik</dd>
+          <dt>Kurzinfo</dt>
+          <dd>Steuerung und Optimierung der Rücksendungen von Waren.</dd>
+        </dl>
         <section aria-labelledby="retourenmanagement-erklaerung">
           <h2 id="retourenmanagement-erklaerung">Erläuterung</h2>
           <p>
@@ -92,7 +93,9 @@
 
         <p>
           Letzte Speicherung des Artikels:
-          <strong>Datum + Uhrzeit (per Javascript)</strong>
+          <time id="last-updated" aria-live="polite"
+            ><strong>Datum + Uhrzeit (per Javascript)</strong></time
+          >
         </p>
       </article>
     </main>

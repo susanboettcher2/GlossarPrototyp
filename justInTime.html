@@ -20,18 +20,21 @@
         <ol>
           <li>Home</li>
           <li><a href="indexGlossar.html">Glossar</a></li>
-          <li>Glossar-Eintrag: Just-in-Time (JIT)</li>
+          <li aria-current="page">Glossar-Eintrag: Just-in-Time (JIT)</li>
         </ol>
       </nav>
 
       <article aria-labelledby="jit-title">
         <h1 id="jit-title">Just-in-Time (JIT)</h1>
-        <p><strong>Kategorie:</strong> Logistik</p>
-        <p>
-          <strong>Kurzinfo:</strong> Produktion oder Lieferung genau zum
-          benötigten Zeitpunkt, um Lagerbestände zu minimieren.
-        </p>
-
+        <dl>
+          <dt>Kategorie</dt>
+          <dd>Logistik</dd>
+          <dt>Kurzinfo</dt>
+          <dd>
+            Produktion oder Lieferung genau zum benötigten Zeitpunkt, um
+            Lagerbestände zu minimieren.
+          </dd>
+        </dl>
         <section aria-labelledby="jit-erklaerung">
           <h2 id="jit-erklaerung">Erläuterung</h2>
           <p>
@@ -98,7 +101,9 @@
 
         <p>
           Letzte Speicherung des Artikels:
-          <strong>Datum + Uhrzeit (per Javascript)</strong>
+          <time id="last-updated" aria-live="polite"
+            ><strong>Datum + Uhrzeit (per Javascript)</strong></time
+          >
         </p>
       </article>
     </main>

@@ -19,20 +19,23 @@
         <ol>
           <li>Home</li>
           <li><a href="indexGlossar.html">Glossar</a></li>
-          <li>Glossar-Eintrag: Supply Chain</li>
+          <li aria-current="page">Glossar-Eintrag: Supply Chain</li>
         </ol>
       </nav>
 
       <article aria-labelledby="supplychain-title">
         <h1 id="supplychain-title">Supply Chain</h1>
-        <p><strong>Kategorie:</strong> Logistik</p>
-        <p>
-          <strong>Kurzinfo:</strong> Das integrierte System von Prozessen,
-          Ressourcen und Organisationen, das an der Produktion, Bewegung und
-          Lagerung von Waren und Dienstleistungen vom Rohmaterial bis zum
-          Endverbraucher beteiligt ist.
-        </p>
-
+        <dl>
+          <dt>Kategorie</dt>
+          <dd>Logistik</dd>
+          <dt>Kurzinfo</dt>
+          <dd>
+            Das integrierte System von Prozessen, Ressourcen und Organisationen,
+            das an der Produktion, Bewegung und Lagerung von Waren und
+            Dienstleistungen vom Rohmaterial bis zum Endverbraucher beteiligt
+            ist.
+          </dd>
+        </dl>
         <section aria-labelledby="supplychain-erklaerung">
           <h2 id="supplychain-erklaerung">Erläuterung</h2>
           <p>
@@ -47,18 +50,16 @@
           <figure>
             <img
               src="/images/SupplyChainManagementUebersichtprologisik.webp"
-              alt="Grafische Darstellung einer Supply Chain von Rohstofflieferanten bis zum Endkunden"
+              alt="Grafische Darstellung einer Supply Chain von Rohstofflieferanten bzw. Produzenten über ein Lager- und Verteilzentrum bis zum Händler oder Endkunden"
             />
-            <figcaption>Darstellung der Supply Chain</figcaption>
+            <figcaption>Darstellung einer komplexen Lieferkette</figcaption>
 
-            <cite>
-              Bild übernommen von: proLogistik Group 2025:
-              <a
-                href="https://www.prologistik.com/logistik-lexikon/supply-chain-management/"
-                target="_blank"
-                rel="noopener"
-                >Supply Chain Management</a
-              ></cite
+            Bild übernommen von: <cite>proLogistik Group 2025</cite>:
+            <a
+              href="https://www.prologistik.com/logistik-lexikon/supply-chain-management/"
+              target="_blank"
+              rel="noopener"
+              >Supply Chain Management</a
             >
           </figure>
 
@@ -145,7 +146,9 @@
 
         <p>
           Letzte Speicherung des Artikels:
-          <strong>Datum + Uhrzeit (per Javascript)</strong>
+          <time id="last-updated" aria-live="polite"
+            ><strong>Datum + Uhrzeit (per Javascript)</strong></time
+          >
         </p>
       </article>
     </main>

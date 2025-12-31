@@ -19,16 +19,20 @@
         <ol>
           <li>Home</li>
           <li><a href="indexGlossar.html">Glossar</a></li>
-          <li>Glossar-Eintrag: Cross-Docking</li>
+          <li aria-current="page">Glossar-Eintrag: Cross-Docking</li>
         </ol>
       </nav>
       <article aria-labelledby="cross-docking-title">
         <h1 id="cross-docking-title">Cross-Docking</h1>
-        <p><strong>Kategorie:</strong> Logistik</p>
-        <p>
-          <strong>Kurzinfo:</strong> Direktes Umladen von Waren vom Wareneingang
-          zum Warenausgang ohne Lagerung.
-        </p>
+        <dl>
+          <dt>Kategorie</dt>
+          <dd>Logistik</dd>
+          <dt>Kurzinfo</dt>
+          <dd>
+            Direktes Umladen von Waren vom Wareneingang zum Warenausgang ohne
+            Lagerung.
+          </dd>
+        </dl>
         <section aria-labelledby="cross-docking-erklaerung">
           <h2 id="cross-docking-erklaerung">Erläuterung</h2>
           <p>
@@ -44,33 +48,34 @@
             angewendet, um die Effizienz der Lieferkette weiter zu optimieren.
           </p>
           <p>
-            Es gibt verschiedene Varianten: „PreDistribution Cross-Docking“, bei
-            dem die Ware schon vor dem Eintreffen im Lager nach Lieferadressen
-            vorsortiert wird, und „PostDistribution Cross-Docking“, bei dem die
-            Sortierung erst im Cross-Dock erfolgt. Diese Methode erfordert
-            präzise Planung, IT-gestützte Steuerung und zuverlässige
-            Lieferanten, da Verzögerungen die gesamte Lieferkette stören können.
+            Es gibt verschiedene Varianten: „Pre-Distribution Cross-Docking“,
+            bei dem die Ware schon vor dem Eintreffen im Lager nach
+            Lieferadressen vorsortiert wird, und „Post-Distribution
+            Cross-Docking“, bei dem die Sortierung erst im Cross-Dock erfolgt.
+            Diese Methode erfordert präzise Planung, IT-gestützte Steuerung und
+            zuverlässige Lieferanten, da Verzögerungen die gesamte Lieferkette
+            stören können.
           </p>
         </section>
         <figure>
           <img
             src="/images/Cross-docking_lexikonp48.webp"
-            alt="Schematische Darstellung von Cross-Docking: Waren werden direkt vom Wareneingang zum Warenausgang umgeladen"
+            alt="Schematische Darstellung von Cross-Docking: Waren werden per LKW zu einer Umschlagsfläche geliefert und von dort aus direkt vom Wareneingang zum Warenausgang umgeladen und weitertransportiert"
           />
           <figcaption>
             Waren werden direkt vom Wareneingang zum Warenausgang umgeladen.
           </figcaption>
-
-          <cite>
-            Bild übernommen von: K. Bichler et al. 2017, Kompakt-Lexikon
-            Logistik, S. 48, DOI:
+          <p>
+            Bild übernommen von:
+            <cite>K. Bichler et al. 2017, Kompakt-Lexikon Logistik, S. 48</cite
+            >, DOI:
             <a
               href="https://doi.org/10.1007/978-3-658-12535-6_12"
               target="_blank"
               rel="noopener"
               >10.1007/978-3-658-12535-6_12</a
-            ></cite
-          >
+            >
+          </p>
         </figure>
 
         <p>
@@ -105,7 +110,7 @@
         </section>
         <p>
           Letzte Speicherung des Artikels:
-          <strong>Datum + Uhrzeit (per Javascript)</strong>
+          <time id="last-updated" aria-live="polite"><strong>Datum + Uhrzeit (per Javascript)</strong></time>
         </p>
       </article>
     </main>
