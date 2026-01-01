@@ -1,0 +1,45 @@
+/*--------------------------------
+Schriftart
+---------------------------------*/
+
+/* Titan One Regular */
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/TitanOne-Regular.ttf") format("truetype");
+  font-family: "Titan One";
+}
+
+/* Mukta Regular */
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Mukta-Regular.ttf") format("truetype");
+  font-family: "Mukta";
+}
+
+/* Mukta Bold */
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Mukta-Bold.ttf") format("truetype");
+  font-family: "Mukta";
+}
+
+/*Definition des Standardlayouts*/
+
+h1,
+h2 {
+  font-weight: 400;
+  font-family: "Titan One", Impact, "Arial Black", sans-serif;
+  letter-spacing: 0.05em;
+}
+
+p,
+a,
+dl,
+nav,
+li {
+  font-weight: 400;
+  font-family: "Mukta", Verdana, "Trebuchet MS", Arial, sans-serif;
+}
