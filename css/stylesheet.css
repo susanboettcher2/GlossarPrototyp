@@ -200,3 +200,67 @@ Spezielle Elemente
 .lastUpdated p {
   font-size: 0.85em;
 }
+
+/* Glossar-Suche / Formularbereich */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1em 0;
+  max-width: 600px;
+}
+
+form label {
+  color: #000033;
+  font-weight: 700;
+}
+
+.form-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+input[type="search"] {
+  flex: 1;
+  box-sizing: border-box;
+  border: 2px solid #2f2f2f;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.2rem;
+  font-family: "Mukta", Verdana, "Trebuchet MS", Arial, sans-serif;
+}
+
+input[type="search"]::placeholder {
+  opacity: 0.8;
+  color: #002050;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+
+input[type="search"]:focus {
+  outline: none;
+  border-color: #000033;
+}
+
+.btn {
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+  border: 2px solid #002050;
+  border-radius: 0.25rem;
+  background-color: #f5f9fc;
+  padding: 0.25rem 1rem;
+  color: #002050;
+  font-size: inherit;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  border-color: #000033;
+  background-color: #002050;
+  color: #f5f9fc;
+}
+
+.btn:active {
+  background-color: #000033;
+}
