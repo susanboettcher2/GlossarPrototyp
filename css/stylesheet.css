@@ -58,7 +58,7 @@ h2 {
   color: #000033;
   font-weight: 400;
   font-family: "Titan One", Impact, "Arial Black", sans-serif;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 h1 {
@@ -97,6 +97,32 @@ a:hover {
   color: #000033;
   text-decoration: underline solid #000033;
   text-decoration-thickness: 2.5px;
+}
+
+.u-highlight {
+  color: #000033;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+figure img {
+  margin-bottom: 0.8vw;
+  border: 1px solid #002050;
+  border-radius: 0.25rem;
+  padding: 2px;
+  background-color: #000033;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
 }
 
 /*--------------------------------
@@ -208,11 +234,6 @@ form {
   gap: 0.5rem;
   margin: 1em 0;
   max-width: 600px;
-}
-
-form label {
-  color: #000033;
-  font-weight: 700;
 }
 
 .form-row {
