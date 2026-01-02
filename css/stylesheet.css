@@ -99,6 +99,25 @@ a:hover {
   text-decoration-thickness: 2.5px;
 }
 
+a[target="_blank"]::after {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.25em;
+  background-image: url("/images/linkExtern.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1em;
+  height: 1em;
+  content: "";
+}
+
+ol li::marker {
+  color: #002050;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: "Mukta", Verdana, "Trebuchet MS", Arial, sans-serif;
+}
+
 .u-highlight {
   color: #000033;
   font-weight: 700;
@@ -116,13 +135,26 @@ figure img {
   margin-bottom: 0.8vw;
   border: 1px solid #002050;
   border-radius: 0.25rem;
-  padding: 2px;
   background-color: #000033;
+  padding: 2px;
+  max-width: 85%;
+  height: auto;
 }
 
-figcaption {
-  text-align: center;
+figcaption .caption-text {
+  margin-bottom: 0.5em;
   font-style: italic;
+  text-align: center;
+}
+
+figcaption .image-credit {
+  color: #2f2f2f;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+figcaption .image-credit a {
+  font-size: inherit;
 }
 
 /*--------------------------------
