@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="/js/loader.js" defer></script>
-       <script src="/js/search.js" defer></script>
+    <script src="/js/search.js" defer></script>
     <title>Log7-Consult Glossar</title>
   </head>
   <body>
@@ -34,7 +34,7 @@
         </p>
       </section>
       <section aria-labelledby="suche">
-        <h2>Suche</h2>
+        <h2 id="suche">Suche</h2>
         <p>
           Durchsuche die unten aufgelisteten Begriffe und die dazugehörigen
           Kurzinformationen nach bestimmten Fachbegriffen oder Termen.
@@ -84,10 +84,12 @@
           </dd>
         </dl>
       </section>
-      <p>
-        Letzte Änderung der Seite:
-        <time id="last-updated" aria-live="polite"></time>
-      </p>
+      <section class="lastUpdated">
+        <p>
+          Seite zuletzt aktualisiert:
+          <time id="last-updated" aria-live="polite"></time>
+        </p>
+      </section>
     </main>
     <footer></footer>
   </body>

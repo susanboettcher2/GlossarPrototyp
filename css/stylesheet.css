@@ -145,7 +145,6 @@ footer {
 
 /*Header-Navigation (teilweise reiner Text, nur Glossar-Tab implementiert)*/
 header {
-
   display: flex;
   position: fixed;
   top: 0;
@@ -185,4 +184,19 @@ header {
   color: #000033;
   text-decoration: underline solid #000033;
   text-decoration-thickness: 2.5px;
+}
+
+/*--------------------------------
+Spezielle Elemente
+---------------------------------*/
+
+/*Anzeige der letzten Speicherung*/
+.lastUpdated {
+  margin-right: -12vw;
+  color: #002050;
+  text-align: end;
+}
+
+.lastUpdated p {
+  font-size: 0.85em;
 }

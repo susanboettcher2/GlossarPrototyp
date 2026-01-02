@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const d = new Date(document.lastModified);
     t.textContent =
         d.toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" }) +
-        " " +
-        d.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" });
+        " um " +
+        d.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" }) + " Uhr";
     t.setAttribute("datetime", d.toISOString());
 });
 
