@@ -31,7 +31,8 @@ Definition des Standardlayouts
 ---------------------------------*/
 
 body {
-  background-color: #f5f9fc;
+  /*background-color: #f5f9fc;*/
+  background-color: red;
   padding-top: 40px;
   color: #2f2f2f;
   font-weight: 400;
