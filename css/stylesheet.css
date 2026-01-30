@@ -6,7 +6,7 @@ Schriftarten
 @font-face {
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/TitanOne-Regular.ttf") format("truetype");
+  src: url("../fonts/TitanOne-Regular.ttf") format("truetype");
   font-family: "Titan One";
 }
 
@@ -14,7 +14,7 @@ Schriftarten
 @font-face {
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/Mukta-Regular.ttf") format("truetype");
+  src: url("../fonts/Mukta-Regular.ttf") format("truetype");
   font-family: "Mukta";
 }
 
@@ -22,7 +22,7 @@ Schriftarten
 @font-face {
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/Mukta-Bold.ttf") format("truetype");
+  src: url("../fonts/Mukta-Bold.ttf") format("truetype");
   font-family: "Mukta";
 }
 
@@ -103,7 +103,7 @@ a[target="_blank"]::after {
   display: inline-block;
   vertical-align: middle;
   margin-left: 0.25em;
-  background-image: url("/images/linkExtern.png");
+  background-image: url("../images/linkExtern.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 1em;
